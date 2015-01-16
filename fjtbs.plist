@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://192.168.1.58:8005/app/ios/upadte/fjtbs.ipa</string>
+					<string>http://192.168.1.58:8005/app/ios/update/fjtbs.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://192.168.1.58:8005/app/ios/upadte/fjtbsIcon@2x.png</string>
+					<string>http://192.168.1.58:8005/app/ios/upadte/512512.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://192.168.1.58:8005/app/ios/upadte/fjtbsInstallIcon.png</string>
+					<string>http://192.168.1.58:8005/app/ios/upadte/5757.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
