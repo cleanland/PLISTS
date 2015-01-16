@@ -13,6 +13,10 @@
 		5D0310C51A69176300892112 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0310C41A69176300892112 /* Images.xcassets */; };
 		5D0310C81A69176300892112 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0310C61A69176300892112 /* LaunchScreen.xib */; };
 		5D0310D41A69176300892112 /* PLISTSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0310D31A69176300892112 /* PLISTSTests.swift */; };
+		5D0310DE1A6918A000892112 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 5D0310DD1A6918A000892112 /* README.TXT */; };
+		5D0310E01A6918BC00892112 /* SUCKS.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 5D0310DF1A6918BC00892112 /* SUCKS.TXT */; };
+		5D4539111A69364300E99659 /* fjtbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D4539101A69364300E99659 /* fjtbs.plist */; };
+		5D4539141A69373200E99659 /* fjtmis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D4539131A69373200E99659 /* fjtmis.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		5D0310CD1A69176300892112 /* PLISTSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLISTSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0310D21A69176300892112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D0310D31A69176300892112 /* PLISTSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLISTSTests.swift; sourceTree = "<group>"; };
+		5D0310DD1A6918A000892112 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		5D0310DF1A6918BC00892112 /* SUCKS.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUCKS.TXT; sourceTree = "<group>"; };
+		5D4539101A69364300E99659 /* fjtbs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fjtbs.plist; sourceTree = "<group>"; };
+		5D4539131A69373200E99659 /* fjtmis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fjtmis.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		5D0310AF1A69176300892112 = {
 			isa = PBXGroup;
 			children = (
+				5D4539121A69370600E99659 /* AAA */,
 				5D0310BA1A69176300892112 /* PLISTS */,
 				5D0310D01A69176300892112 /* PLISTSTests */,
 				5D0310B91A69176300892112 /* Products */,
@@ -83,6 +92,8 @@
 				5D0310C41A69176300892112 /* Images.xcassets */,
 				5D0310C61A69176300892112 /* LaunchScreen.xib */,
 				5D0310BB1A69176300892112 /* Supporting Files */,
+				5D0310DD1A6918A000892112 /* README.TXT */,
+				5D0310DF1A6918BC00892112 /* SUCKS.TXT */,
 			);
 			path = PLISTS;
 			sourceTree = "<group>";
@@ -110,6 +121,15 @@
 				5D0310D21A69176300892112 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D4539121A69370600E99659 /* AAA */ = {
+			isa = PBXGroup;
+			children = (
+				5D4539101A69364300E99659 /* fjtbs.plist */,
+				5D4539131A69373200E99659 /* fjtmis.plist */,
+			);
+			name = AAA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +212,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4539141A69373200E99659 /* fjtmis.plist in Resources */,
 				5D0310C31A69176300892112 /* Main.storyboard in Resources */,
+				5D0310E01A6918BC00892112 /* SUCKS.TXT in Resources */,
 				5D0310C81A69176300892112 /* LaunchScreen.xib in Resources */,
+				5D0310DE1A6918A000892112 /* README.TXT in Resources */,
+				5D4539111A69364300E99659 /* fjtbs.plist in Resources */,
 				5D0310C51A69176300892112 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +429,7 @@
 				5D0310D91A69176300892112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0310DA1A69176300892112 /* Build configuration list for PBXNativeTarget "PLISTSTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				5D0310DC1A69176300892112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
