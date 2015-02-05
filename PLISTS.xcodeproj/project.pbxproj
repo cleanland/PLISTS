@@ -17,6 +17,7 @@
 		5D0310E01A6918BC00892112 /* SUCKS.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 5D0310DF1A6918BC00892112 /* SUCKS.TXT */; };
 		5D4539111A69364300E99659 /* fjtbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D4539101A69364300E99659 /* fjtbs.plist */; };
 		5D4539141A69373200E99659 /* fjtmis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D4539131A69373200E99659 /* fjtmis.plist */; };
+		84EE68C41A834B9500F821ED /* tbp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84EE68C31A834B9500F821ED /* tbp.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5D0310DF1A6918BC00892112 /* SUCKS.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SUCKS.TXT; sourceTree = "<group>"; };
 		5D4539101A69364300E99659 /* fjtbs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fjtbs.plist; sourceTree = "<group>"; };
 		5D4539131A69373200E99659 /* fjtmis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fjtmis.plist; sourceTree = "<group>"; };
+		84EE68C31A834B9500F821ED /* tbp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tbp.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				5D4539101A69364300E99659 /* fjtbs.plist */,
 				5D4539131A69373200E99659 /* fjtmis.plist */,
+				84EE68C31A834B9500F821ED /* tbp.plist */,
 			);
 			name = AAA;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D4539141A69373200E99659 /* fjtmis.plist in Resources */,
+				84EE68C41A834B9500F821ED /* tbp.plist in Resources */,
 				5D0310C31A69176300892112 /* Main.storyboard in Resources */,
 				5D0310E01A6918BC00892112 /* SUCKS.TXT in Resources */,
 				5D0310C81A69176300892112 /* LaunchScreen.xib in Resources */,
